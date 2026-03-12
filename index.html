@@ -231,13 +231,13 @@
     </header>
 
     <div class="tab">
-        <button class="tablinks" onclick="abrirPestana(event, 'Clasificacion')">Clasificación</button>
-        <button class="tablinks active" onclick="abrirPestana(event, 'Goleadores')">Goleadores</button>
+        <button class="tablinks active" onclick="abrirPestana(event, 'Clasificacion')">Clasificación</button>
+        <button class="tablinks" onclick="abrirPestana(event, 'Goleadores')">Goleadores</button>
         <button class="tablinks" onclick="abrirPestana(event, 'Estadisticas')">Mis Estadísticas</button>
         <button class="tablinks" onclick="abrirPestana(event, 'Resultados')">Resultados</button>
     </div>
 
-    <div id="Clasificacion" class="tabcontent">
+    <div id="Clasificacion" class="tabcontent" style="display: block;">
         <h2>Clasificación de la Liga</h2>
         <div class="table-responsive">
             <table>
@@ -276,7 +276,7 @@
         </div>
     </div>
 
-    <div id="Goleadores" class="tabcontent" style="display: block;">
+    <div id="Goleadores" class="tabcontent">
         <h2>Tabla de Goleadores</h2>
         <div class="table-responsive">
             <table>
